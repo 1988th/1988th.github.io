@@ -612,7 +612,7 @@
   }
 
   /* ── RESPONSIVE ── */
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     .intro-grid { grid-template-columns: 1fr; gap: 3rem; }
     .formats-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
     .result-grid { grid-template-columns: 1fr; gap: 3rem; }
