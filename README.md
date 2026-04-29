@@ -183,8 +183,7 @@
 
   /* ── WRAPPER ── */
   .container {
-    max-width: 1160px;
-    margin: 0 auto;
+    width: 100%;
     padding: 0 7vw;
   }
 
@@ -612,7 +611,7 @@
   }
 
   /* ── RESPONSIVE ── */
-  @media (max-width: 1300px) {
+  @media (max-width: 900px) {
     .intro-grid { grid-template-columns: 1fr; gap: 3rem; }
     .formats-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
     .result-grid { grid-template-columns: 1fr; gap: 3rem; }
